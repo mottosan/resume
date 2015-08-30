@@ -1,0 +1,126 @@
+
+%________________________________________________________________________________________
+% @brief    LaTeX2e Resume for Kamil K Wojcicki
+% @author   Kamil K Wojcicki
+% @url      http://linux.dsplabs.com.au/?p=54
+% @date     Decemebr 2007
+% @info     Based on Latex Resume Template by Chris Paciorek 
+%           http://www.biostat.harvard.edu/~paciorek/
+
+
+%________________________________________________________________________________________
+\documentclass[margin,line]{resume}
+\begin{document}
+\name{\Large Amortya Ray}
+\begin{resume}
+
+    %____________________________________________________________________________________
+    % Contact Information
+    \section{\mysidestyle Contact\\Information}\vspace{2mm}
+
+\begin{tabular*}{1.0\textwidth}%
+{@{\extracolsep{\fill}}lr}
+20 Exchange Place & +1 646 701 1761 \\
+New York, NY 10005 & ar2566@columbia.edu \\
+\end{tabular*}
+
+    %____________________________________________________________________________________
+    % Education
+    \section{\mysidestyle Education}
+
+    {\bf Columbia University}, New York, NY \vspace{2mm}%
+    \begin{list1}
+    \item[] Masters in Computer Science, December 2007
+	
+    \vspace*{2mm}
+    {\bf Sardar Patel College of Engineering}, Mumbai, India \vspace{2mm}%
+    \item[] Bachelor of Engineering in Computer Engineering, June 2006
+    \vspace*{1mm}
+    \end{list1}
+    
+    
+    \vspace*{-2mm}
+    
+        %____________________________________________________________________________________
+    % Computer Skills
+    \section{\mysidestyle Technical\\Skills} 
+
+    \begin{list2}
+        \setlength{\itemsep}{3pt}
+        \item Programming: Java, Python, Shell scripting, \LaTeXe
+        \item Web: JQuery, JSON, Flask, Bootstrap, D3, REST APIs
+        \item Tools: Spring, Hibernate, Flask, Redis, Solr, Elastic Search, Excel VBA
+    \end{list2}
+   \vspace*{-2mm}
+   %____________________________________________________________________________________
+    % Professional Experience
+    \section{\mysidestyle Professional\\Experience}
+    
+  {\bf Nomura Securities}, New York, NY \vspace{1mm}\\\vspace{1mm}%
+    {\sl Associate} \hfill {\bf September, 2010 -- present}\\
+    \vspace{-3mm}
+    \begin{list2}
+    	        \item Global Markets Research
+		\begin{list3} 
+			\item Designed and built a Python framework for the Research Desk to perform historical time-series analysis and backtesting of trading strategies. Improved performance by a factor of 100. 			
+			\item Led a team of 3 to implement a multi-tenant, highly available, fault tolerant search engine. The service is designed to deliver accurate results with minimal latency. It supports highlighting, suggestions for autocomplete, faceting, intelligent ranking and is distributed in nature.
+			\item Developed tools used by traders and research analysts for pre-trade analysis in lieu of a vendor product resulting in annual savings of \$500k.
+			\item Designed and implemented a global, replicated in-memory caching layer.
+		\end{list3}
+        \item Fixed Income - Architecture \& Infrastructure
+		\begin{list3}        	
+			\item Designed and developed the reference data infrastructure to support the Global Markets (Fixed Income and Equities) businesses.
+			\item Designed and implemented a new data model for modeling reference data using Java annotations. The data model allowed automatic generation of Java and C\# classes and querying multiple data sources without the need to write additional code.  
+			\item Implemented a Lucene-based search index using Apache Solr to support full-text search across various entities
+		\end{list3}
+    \end{list2}
+    
+
+  {\bf Lehman Brothers/Barclays Capital}, New York, NY \vspace{1mm}\\\vspace{1mm}%
+    {\sl Senior Analyst} \hfill {\bf February, 2008 -- September 2010}\\
+    \vspace{-3mm}
+    \begin{list2}
+     \item Risk Services - Core Risk Engine
+        		\begin{list3}
+			\item Part of a global team that developed a generic plugin-based risk framework using C++. 
+			\item Contributed to the instrumentation effort to supply clients with performance data. 
+		\end{list3}
+        \item Credit Analytics - Credit Marking Service
+        		\begin{list3}
+			\item Developed and enhanced several key components of a Java/J2EE application responsible for providing CDS curve spread data for the firm's CDS trade booking and pricing systems. 
+        		\end{list3}
+    \end{list2}
+
+\vspace*{-2mm}                 
+         
+    \section{\mysidestyle Academic\\Projects}	          
+      {\bf ThinC - A Java based client for Thin-Client InterNet Computing server} \vspace{2mm}
+      \begin{list2}
+	\item Developed a Java application for a virtual display system with full support for regular desktop interaction, screen-scaling, audio and full-motion video playback. 
+	\item Designed the client to be extremely lightweight and capable of running in a VM on a minimal terminal. 
+       \end{list2}        
+
+
+\vspace*{-2mm}    
+       
+       % Additional Qualifications
+       \section{\mysidestyle Additional Qualifications}
+       \begin{list2}
+	\item Successfully appeared for the Series 7 and Series 63 examinations conducted by the FINRA.
+	\end{list2}
+
+       % Additional Qualifications
+       \section{\mysidestyle Interests}
+       \begin{list2}
+	\item Long distance running
+	\end{list2}
+	
+%________________________________________________________________________________________
+\end{resume}
+\end{document}
+
+%________________________________________________________________________________________
+% EOF
+
+
+
